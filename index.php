@@ -30,11 +30,6 @@
     </div>
     </div>
    
-    <form action="www.merajulgdesign.page.gd" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-  <button type="submit">Send</button>
-</form>
 
 
     
