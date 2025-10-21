@@ -79,7 +79,7 @@ if (isset($_GET['search'])) {
                 </td>
                 <td>
                 <!-- ✅ Library Card বাটন -->
-                <a href="../user/library_card.php?user_id=<?= $user['id'] ?>" 
+                <a href="library_card.php?user_id=<?= $user['id'] ?>" 
                    class="btn btn-sm btn-primary">
                    🪪 View Card
                 </a>

@@ -67,6 +67,9 @@ $borrowed_res = mysqli_query($conn, "
         <h5>Borrow Limit</h5>
         <p>Allowed: <strong><?php echo $borrow_limit; ?></strong></p>
         <p>Currently Borrowed: <strong><?php echo $current_borrowed; ?></strong></p>
+         <a href="../admin/library_card.php?user_id" 
+                   class="btn btn-sm btn-primary">
+                   🪪 View Card </a>
       </div>
     </div>
   </div>
@@ -97,6 +100,7 @@ $borrowed_res = mysqli_query($conn, "
               <?php else: ?>
                 <button class="btn btn-secondary w-100" disabled>Out of Stock</button>
               <?php endif; ?>
+
             </div>
           </div>
         </div>
