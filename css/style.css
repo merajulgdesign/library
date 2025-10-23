@@ -27,7 +27,6 @@ body{
 .sign-btn{
     border: none;
 margin-top: 20px;
-
 }
 button{
     background-color: #400f0f;
@@ -40,28 +39,3 @@ button a{
     text-decoration: none;
     color:#fff;
 }
-.system_info{
-
-    margin-top: 20px;
-    background-color: #fff;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    border-radius: 20px;
-    justify-content: center; /* horizontal center */
-    align-items: center;     /* vertical center */
-    border: 1px solid #000;
-}
-.outer-div {
-      display: flex;               /* Flexbox */
-      justify-content: center;     /* Horizontal center */
-      align-items: center;         /* Vertical center */
-      height: 200px;               /* Parent div height */
-      background-color: #e4e7e9;
-    }
-
-    .inner-div {
-      padding: 20px 30px;
-      color: rgb(12, 1, 1);
-      border-radius: 8px;
-      text-align: center;
-    }

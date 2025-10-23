@@ -79,7 +79,11 @@ h4 {
 
 <nav class="navbar navbar-light bg-light shadow-sm">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="manage_borrow.php">⬅ Back</a>
+         <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin'): ?>
+        <a class="navbar-brand fw-bold" href="manage_users.php">⬅ Back</a>
+        <?php elseif (isset($_SESSION['role']) && $_SESSION['role'] === 'user'): ?>
+            <a class="navbar-brand fw-bold" href="../user/dashboard.php">⬅ Back</a>
+             <?php endif; ?>
         <span class="fw-bold">Library Card</span>
     </div>
 </nav>
